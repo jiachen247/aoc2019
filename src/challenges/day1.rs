@@ -34,7 +34,7 @@ pub fn part1() {
         fuel_counter += calculate_fuel(mass);
     }
 
-    // Answer is 3365459
+    // Fuel needed is 3365459
     println!("Fuel needed is {}!", fuel_counter);
 }
 
@@ -55,6 +55,6 @@ pub fn part2() {
         fuel_counter += calculate_fuel_recursive(mass);
     }
 
-    // Answer is 3365459
+    // Fuel needed is 5045301!
     println!("Fuel needed is {}!", fuel_counter);
 }
