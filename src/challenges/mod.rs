@@ -1,5 +1,5 @@
-pub mod day1;
+pub mod day2;
 
 pub fn run_today() {
-    day1::part2();
+    day2::part2();
 }
