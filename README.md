@@ -7,5 +7,5 @@ https://adventofcode.com/2019/about
 ```
 $ cp src/challenges/day0.rs src/challenges/dayx.rs
 $ touch src/input/day{}-part{}.in
-update entry point in `mod.rs`
+$ vim src/challenges/mod.rs
 ```
