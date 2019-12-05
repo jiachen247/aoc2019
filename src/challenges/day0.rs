@@ -1,7 +1,7 @@
 use std::io::{self, BufRead};
 
-const TITLE: &str = "Title goes here";
 const DAY: i32 = 1;
+const TITLE: &str = "Title goes here";
 
 pub fn part1() {
     println!("--- Day {} Part 1: {} ---", DAY, TITLE);
@@ -43,4 +43,14 @@ pub fn part2() {
 
     // Answer is XXX
     println!("print answer!!!");
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_solution() {
+        // assert_eq!(4, add_two(2));
+    }
 }

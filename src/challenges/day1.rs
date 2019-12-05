@@ -35,7 +35,7 @@ pub fn part1() {
     }
 
     // Fuel needed is 3365459
-    println!("Fuel needed is {}!", fuel_counter);  
+    println!("Fuel needed is {}!", fuel_counter);
 }
 
 pub fn part2() {
