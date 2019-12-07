@@ -8,3 +8,5 @@ edition = "2018"
 
 [dependencies]
 libmath = "0.2.1"
+petgraph = "0.4.13"
+permutate = "0.3.2"
