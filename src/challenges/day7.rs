@@ -1,6 +1,5 @@
 use permutate::Permutator;
 use std::io;
-// use std::collections::HashSet;
 
 const DAY: i32 = 7;
 const TITLE: &str = "Amplification Circuit";
@@ -103,7 +102,10 @@ pub fn execute(program: String, mut input: Vec<i32>) -> i32 {
                 op_code: WRITE_CODE,
                 ..
             } => {
-                println!("writing to output {}", memory[memory[eip + 1 as usize] as usize]);
+                println!(
+                    "writing to output {}",
+                    memory[memory[eip + 1 as usize] as usize]
+                );
                 output.push(memory[memory[eip + 1 as usize] as usize]);
                 eip += 2;
             }
